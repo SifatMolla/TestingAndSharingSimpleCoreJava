@@ -3,7 +3,7 @@
 public class findingBigArrayInt {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		int[] arrr={4335,65,17,8,0,181,654,15,38,990,-1};
 		
@@ -24,7 +24,7 @@ public class findingBigArrayInt {
 	}
 
 	static void bigArr(int arrq[],int ng){
-		//int[] arr=arrq;
+		
 		
 		if(arrq.length>=1&& ng>0){
 			for (int i = 0; i < arrq.length-1; i++) {
@@ -37,8 +37,7 @@ public class findingBigArrayInt {
 			ng--;
 		bigArr(arrq, ng);	
 		}
-	/*	for (int i : arrq) {
-			System.out.println(i);
+	/*2nd commit
 		}*/
 		
 	}
